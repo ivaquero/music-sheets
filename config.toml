@@ -1,4 +1,8 @@
-baseURL      = 'http://example.org/'
+baseURL      = 'https://localhost:1313/'
 languageCode = 'en-us'
-title        = 'My New Hugo Site'
+title        = 'Music Sheets'
 theme        = 'book'
+
+[[menu.navbar]]
+    name = "首页"
+    url  = "http://localhost:1313"
