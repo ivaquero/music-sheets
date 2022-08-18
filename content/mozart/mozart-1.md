@@ -1,0 +1,5 @@
+﻿---
+title: 'Mozart'
+---
+
+Wolfgang Mozart

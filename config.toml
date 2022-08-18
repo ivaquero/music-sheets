@@ -1,8 +1,22 @@
 baseURL      = 'https://localhost:1313/'
 languageCode = 'en-us'
-title        = 'Music Sheets'
-theme        = 'book'
+title        = '乐谱'
+theme        = 'techdoc'
+paginate     = 5
 
-[[menu.navbar]]
-    name = "首页"
-    url  = "http://localhost:1313"
+hasCJKLanguage = true
+metaDataFormat = "yaml"
+
+[menu]
+    [[menu.main]]
+        name       = "Home"
+        url        = "/"
+        weight     = 1
+        identifier = 'home'
+        pre        = "<i class='fa fa-heart'></i>&nbsp;"
+
+[markup]
+    [markup.tableOfContents]
+        startLevel = 2
+        endLevel   = 6
+        ordered    = true
