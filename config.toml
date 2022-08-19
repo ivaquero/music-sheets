@@ -1,22 +1,46 @@
-baseURL      = 'https://localhost:1313/'
-languageCode = 'en-us'
-title        = '乐谱'
-theme        = 'techdoc'
-paginate     = 5
+baseURL = "https://localhost:1313/"
+title   = "🎼 乐谱大全"
+theme   = "book"
 
-hasCJKLanguage = true
-metaDataFormat = "yaml"
+# Book configuration
+disablePathToLower = true
+enableGitInfo      = true
+
+# Needed for mermaid/katex shortcodes
+[markup]
+    [markup.goldmark.renderer]
+        unsafe = true
+
+[markup.tableOfContents]
+    startLevel = 1
+
+[languages]
+    [languages.zh]
+        languageName = '中文'
+        contentDir   = 'content'
+        weight       = 1
+    [languages.en]
+        languageName = 'English'
+        contentDir   = 'content.en'
+        weight       = 2
+    [languages.ru]
+        languageName = 'Русский'
+        contentDir   = 'content.ru'
+        weight       = 3
 
 [menu]
-    [[menu.main]]
-        name       = "Home"
-        url        = "/"
-        weight     = 1
-        identifier = 'home'
-        pre        = "<i class='fa fa-heart'></i>&nbsp;"
+    [[menu.after]]
+        name   = "🔗 淘宝店铺"
+        url    = "/"
+        weight = 50
 
-[markup]
-    [markup.tableOfContents]
-        startLevel = 2
-        endLevel   = 6
-        ordered    = true
+[params]
+    BookTheme          = 'light'
+    BookToC            = true
+    BookSection        = 'docs'
+    BookDateFormat     = 'January 1, 2022'
+    BookSearch         = true
+    BookComments       = true
+    BookPortableLinks  = true
+    BookServiceWorker  = true
+    BookTranslatedOnly = false

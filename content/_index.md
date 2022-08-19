@@ -1,6 +1,3 @@
 ﻿---
-title: 乐谱
-description: 乐谱大全
+title: 起始
 ---
-
-起始页
