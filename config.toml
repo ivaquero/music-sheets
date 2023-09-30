@@ -1,4 +1,4 @@
-baseURL = "https://localhost:1313/"
+baseURL = "https://ivaquero.github.io/music-sheets/"
 title   = "🎼 乐谱大全"
 theme   = "book"
 
@@ -35,12 +35,14 @@ enableGitInfo      = true
         weight = 50
 
 [params]
+    BookComments       = true
+    BookCommitPath     = 'commit'
+    BookDateFormat     = 'January 1, 2022'
+    BookMenuBundle     = '/menu'
+    BookPortableLinks  = true
+    BookSearch         = true
+    BookSection        = 'docs'
+    BookServiceWorker  = true
     BookTheme          = 'light'
     BookToC            = true
-    BookSection        = 'docs'
-    BookDateFormat     = 'January 1, 2022'
-    BookSearch         = true
-    BookComments       = true
-    BookPortableLinks  = true
-    BookServiceWorker  = true
     BookTranslatedOnly = false
