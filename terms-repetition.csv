@@ -1,0 +1,11 @@
+术语,记号,意义
+Fine,,反复到此记号结尾
+Coda,,表示该段落为乐章结尾
+Segno,,反复的开端或结尾
+Da Capo,D.C.,从头再奏
+Da Capo al Fine,D.C. al Fine,从头再奏后，演奏到Fine记号为止
+Da Capo al Coda,D.C. al Coda,从头再奏后，演奏到Segno记号为止（有时会以To Coda取代），再跳至第二个记号完结
+Da Capo al Segno,D.C. al Segno,从头再奏后，演奏到Segno记号为止
+Dal Segno,D.S.,从Segno记号再奏
+Dal Segno al Fine,D.S. al Fine,从Segno记号再奏，演奏到Fine记号为止
+Dal Segno al Coda,D.S. al Coda,从Segno记号再奏，演奏到Segno记号（有时会以To Coda取代），再跳至第二个记号完结
